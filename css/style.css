@@ -1,0 +1,72 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  color: #2e2f42;
+}
+h1 {
+  color: #ffffff;
+}
+h3 {
+  line-height: 1.2;
+}
+p {
+  line-height: 1.5;
+}
+/* ===== HEADER ======== */
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 0px;
+  text-decoration: none;
+}
+.web-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.contacts {
+  color: #434455;
+}
+ul {
+  list-style-type: none;
+}
+.contacts:hover,
+.contacts:focus {
+  color: orange;
+}
+a:hover,
+.button:hover {
+  color: green;
+}
+/* ======== HERO ======= */
+.hero {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* ======= TEAM ======= */
+.page-team {
+  background: #f4f4fd;
+}
+/* ======== FOOTER ======= */
+.page-footer {
+  background: #2e2f42;
+}
+.footer-logo {
+  color: #f4f4fd;
+}
+.page-footer p {
+  color: #f4f4fd;
+}
