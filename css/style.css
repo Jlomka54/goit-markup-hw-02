@@ -1,5 +1,5 @@
 body {
-  font-family: "Raleway , Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   color: #434455;
@@ -9,6 +9,7 @@ body {
 /* ===== HEADER ======== */
 
 .logo {
+  font-family: "Raleway", sans-serif;
   justify-content: flex-start;
   text-decoration: none;
   font-size: 18px;
@@ -23,6 +24,13 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+}
+.header-link {
+  color: #2e2f42;
+}
+..header-link:hover,
+.header-link:focus {
+  color: #404bbf;
 }
 .header-navigation-list {
   font-weight: 500;
@@ -61,6 +69,7 @@ ul {
   line-height: 1.07;
   text-align: center;
   color: #fff;
+  letter-spacing: 0.02em;
 }
 .button {
   background-color: #4d5ae5;
@@ -71,6 +80,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
 }
 .button:hover,
 .button:focus {
@@ -89,7 +99,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.innovationi-paragraph {
+.paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
