@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
   color: #434455;
   background-color: #ffffff;
 }
@@ -12,6 +11,7 @@ body {
   font-family: "Raleway", sans-serif;
   justify-content: flex-start;
   text-decoration: none;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
